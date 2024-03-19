@@ -1,0 +1,33 @@
+        /* Estilos para dispositivos pequenos (telas menores que 576px) */
+        @media (max-width: 575.98px) {
+            /* Adicione estilos específicos para telas pequenas aqui */
+        }
+
+        /* Estilos para dispositivos médios (telas entre 576px e 991.98px) */
+        @media (min-width: 576px) and (max-width: 991.98px) {
+            /* Adicione estilos específicos para telas médias aqui */
+        }
+
+        /* Estilos para dispositivos grandes (telas maiores que 992px) */
+        @media (min-width: 992px) {
+            /* Adicione estilos específicos para telas grandes aqui */
+        }
+
+body{
+    background-color: #3b4147;
+    color: white;
+    /* Estilos gerais */
+        margin: 0;
+        padding: 0;
+}
+
+.tabela {
+margin-top: 10px;
+}
+
+.navbar-nav-mr-auto {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* ou 'space-around' para algum espaçamento extra entre os itens */
+    width: 40%;
+}

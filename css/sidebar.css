@@ -1,0 +1,41 @@
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+/* Estilos adicionais para a barra lateral */
+.sidebar {
+    height: 100%;
+    width: 4.5rem; /* Largura ajustada conforme o exemplo de CSS */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40; /* Cor de fundo da barra lateral */
+    padding-top: 56px; /* Tamanho do cabeçalho */
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff; /* Cor do texto alterada para branco */
+    display: block;
+    position: relative;
+}
+.sidebar a:hover {
+    background-color: #495057; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o tooltip */
+.tooltip-inner {
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branco */
+    border: 1px solid #fff; /* Borda */
+    border-radius: 5px; /* Arredondamento da borda */
+    font-size: 14px; /* Tamanho da fonte */
+    padding: 5px 10px; /* Espaçamento interno */
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    border-top-color: #000; /* Cor da seta */
+}
